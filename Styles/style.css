@@ -50,7 +50,12 @@
         margin: 80px 175px;
         display: flex;
         justify-content: center;
+        padding: 10px;
     }
+    /* .youtube-border {
+        border: 2px solid red;
+        border-radius: 5%;
+    } */
     
     .text3 {
         text-align: center;
@@ -151,6 +156,7 @@
         width: 157px;
         height: 57px;
         border-radius: 8px;
+        border-style: none;
     }
     
     .text-sup {
