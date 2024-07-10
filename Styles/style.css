@@ -45,6 +45,13 @@
         margin: 96px 180px 0 180px;
     }
     
+    .youtube-link {
+        align-items: center;
+        margin: 80px 175px;
+        display: flex;
+        justify-content: center;
+    }
+    
     .text3 {
         text-align: center;
         color: #0D1321;
@@ -97,19 +104,19 @@
     }
     
     .skills1 {
-        background-color: antiquewhite;
+        background-color: rgba(255, 76, 30, 0.05);
         padding: 30px;
         border-radius: 8px;
     }
     
     .skills2 {
-        background-color: aquamarine;
+        background-color: rgba(0, 76, 232, 0.05);
         padding: 30px;
         border-radius: 8px;
     }
     
     .skills3 {
-        background-color: bisque;
+        background-color: rgba(255, 223, 0, 0.05);
         padding: 30px;
         border-radius: 8px;
     }
@@ -118,4 +125,64 @@
         color: #0D1321;
         font-size: 16px;
         font-weight: bold;
+    }
+    
+    .support-ses {
+        text-align: center;
+        background-image: url(/assets/handshake.jpg);
+        background-blend-mode: darken;
+        height: 313px;
+        background-size: cover;
+        background-position: center;
+        margin: 150px;
+        border-radius: 16px;
+        padding: 64px;
+    }
+    
+    .text-cls {
+        width: 548px;
+        height: 57px;
+        margin-right: 10px;
+        background-color: white;
+        border-radius: 8px;
+    }
+    
+    .btn-cls {
+        width: 157px;
+        height: 57px;
+        border-radius: 8px;
+    }
+    
+    .text-sup {
+        color: white;
+        font-size: 32px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    
+    .paragraph-sup {
+        color: white;
+        padding: 20px;
+    }
+    
+    .btn-cls {
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /* footer style */
+    
+    .footer-add {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 150px;
+    }
+    
+    .online-platfm {
+        margin-right: 24px;
+    }
+    
+    footer {
+        background-color: rgba(13, 19, 33, 0.03);
     }
