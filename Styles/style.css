@@ -35,13 +35,14 @@
         font-size: 20px;
         padding: 18px;
         border-radius: 8px;
+        margin-top: 45px;
     }
     /* Main Section */
     
     .banner1 {
         display: flex;
         justify-content: space-between;
-        margin: 96px 170px 0 170px;
+        margin: 96px 180px 0 180px;
     }
     
     .text3 {
@@ -49,6 +50,7 @@
         color: #0D1321;
         font-weight: bolder;
         font-size: 32px;
+        padding: 20px;
     }
     
     .text4 {
@@ -58,4 +60,52 @@
     .text5 {
         font-size: 24px;
         font-weight: bold;
+    }
+    
+    .text7 {
+        font-size: 32px;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 232px;
+    }
+    
+    .text8 {
+        text-align: center;
+    }
+    
+    .container {
+        padding: 0 150px 0 150px;
+    }
+    
+    .targets {
+        display: flex;
+        gap: 24px;
+        padding: 30px;
+    }
+    
+    .text9 {
+        text-align: center;
+        margin-top: 300px;
+        font-size: 32px;
+        font-weight: bolder;
+    }
+    
+    .text10 {
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    
+    .skills1 {
+        background-color: antiquewhite;
+        padding: 30px;
+    }
+    
+    .skills2 {
+        background-color: aquamarine;
+        padding: 30px;
+    }
+    
+    .skills3 {
+        background-color: bisque;
+        padding: 30px;
     }
