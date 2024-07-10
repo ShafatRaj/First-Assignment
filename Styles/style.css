@@ -79,6 +79,7 @@
     
     .targets {
         display: flex;
+        justify-content: center;
         gap: 24px;
         padding: 30px;
     }
@@ -98,14 +99,23 @@
     .skills1 {
         background-color: antiquewhite;
         padding: 30px;
+        border-radius: 8px;
     }
     
     .skills2 {
         background-color: aquamarine;
         padding: 30px;
+        border-radius: 8px;
     }
     
     .skills3 {
         background-color: bisque;
         padding: 30px;
+        border-radius: 8px;
+    }
+    
+    .anchor1 {
+        color: #0D1321;
+        font-size: 16px;
+        font-weight: bold;
     }
